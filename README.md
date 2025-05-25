@@ -29,17 +29,20 @@ A lightweight object detection system using **OpenCV** and **SSD MobileNet V3** 
 
 2. Set up virtual environment::  
    ```bash
-    python -m venv venv
-    # Windows
-    .\venv\Scripts\activate
-    # Mac/Linux
-    source venv/bin/activate
+    python -m venv env
 
-3. Install dependencies:
+3. activate environment
+   ```bash
+    # Windows
+    .\env\Scripts\activate
+    # Mac/Linux
+    source env/bin/activate
+
+4. Install dependencies:
     ```bash
      pip install opencv-python pyttsx3 
 
-4. Usage 
+5. Usage 
     ```bash
     python main.py
     press Q to quit
