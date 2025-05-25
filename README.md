@@ -31,7 +31,7 @@ A lightweight object detection system using **OpenCV** and **SSD MobileNet V3** 
    ```bash
     python -m venv env
 
-3. activate environment
+3. Activate environment
    ```bash
     # Windows
     .\env\Scripts\activate
