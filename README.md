@@ -1,56 +1,41 @@
-# Python Object Detection 🎯
+# Real-Time Object Detection with Python 🎯  
 
-This project demonstrates real-time object detection using a pre-trained **SSD MobileNet V3 Large model** with **OpenCV** in Python. It's designed to identify and classify objects within video streams or images based on the **COCO dataset**.
+![Demo 1](/img/img1.PNG) | ![Demo 2](/img/img2.PNG)  
+:-------------------------:|:-------------------------:
+![Demo 3](/img/img3.PNG) | ![Demo 4](/img/img4.PNG)  
 
+A lightweight object detection system using **OpenCV** and **SSD MobileNet V3** to identify 80 common objects from the COCO dataset in real-time.
 
-## **About The Project**
+---
 
-This project leverages the power of deep learning for object detection. It utilizes a pre-trained `ssd_mobilenet_v3_large_coco_2020_01_14` model (frozen inference graph) to perform efficient and accurate object recognition. The project is built with **Python 3.8** and relies heavily on the **OpenCV** library for image and video processing. The model is trained on the extensive **COCO dataset**, allowing it to detect a wide variety of common objects.
+## ✨ Features  
+✔ **Live Camera Detection** - Works with webcams or video files  
+✔ **Pre-trained Model** - SSD MobileNet V3 (optimized for speed/accuracy balance)  
+✔ **Voice Feedback** - Optional text-to-speech with `pyttsx3`  
+✔ **Threshold Control** - Adjustable confidence level for detections  
 
 ---
 
-## **Features**
+## ⚙️ Installation  
 
-* **Real-time Object Detection**: Detects objects in live video streams from your webcam.
-* **Pre-trained Model**: Uses the `SSD MobileNet V3 Large` model for out-of-the-box detection capabilities.
-* **COCO Dataset Support**: Recognizes objects from the 80 classes of the COCO dataset.
-* **Simple to Use**: Easy setup and execution.
+### Requirements  
+- Python 3.8+  
+- OpenCV 4.5+  
 
----
-## **Getting Started**
+### Steps  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/lihini223/Object-Detection-model.git
+   cd Object-Detection-model
 
-To get a local copy up and running, follow these simple steps.
+2. Set up virtual environment::  
+   ```bash
+    python -m venv venv
+    # Windows
+    .\venv\Scripts\activate
+    # Mac/Linux
+    source venv/bin/activate
 
-### **Prerequisites**
-Ensure you have **Python 3.8** installed on your system. You can check your Pyth
-
-# **Installation**
-
-1.Clone the repository:
-https://github.com/lihini223/Object-Detection-model.git
-
-2.Navigate into the project directory:
-cd Python-Object-Detection
-
-Virtual Environment Setup
-It's highly recommended to set up a virtual environment to manage project dependencies.
-python -m venv venv
-
-Activate the virtual environment:
-On Windows:
-.\venv\Scripts\activate
-
-On macOS/Linux:
-source venv/bin/activate
-
-Install the required Python packages
-pip install opencv-python pyttsx3
-
-
-Usage
-Once you have set up the environment and installed the dependencies, you can run the object detection script.
-
-To start the object detection:
-python main.py
-
-This will open your webcam feed, and the detected objects will be highlighted with bounding boxes and labels.
+3. Install dependencies:
+    ```bash
+     pip install opencv-python pyttsx3 numpy
