@@ -19,8 +19,7 @@ A lightweight object detection system using **OpenCV** and **SSD MobileNet V3** 
 ## ⚙️ Installation  
 
 ### Requirements  
-- Python 3.8+  
-- OpenCV 4.5+  
+- Python 3.8 !important 
 
 ### Steps  
 1. Clone the repository:  
@@ -38,4 +37,9 @@ A lightweight object detection system using **OpenCV** and **SSD MobileNet V3** 
 
 3. Install dependencies:
     ```bash
-     pip install opencv-python pyttsx3 numpy
+     pip install opencv-python pyttsx3 
+
+4. Usage 
+    ```bash
+    python main.py
+    press Q to quit
