@@ -1,28 +1,7 @@
 # Python Object Detection 🎯
-![Python](https://img.shields.io/badge/Python-3.8-blue?style=for-the-badge&logo=python&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green?style=for-the-badge&logo=opencv&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)
 
 This project demonstrates real-time object detection using a pre-trained **SSD MobileNet V3 Large model** with **OpenCV** in Python. It's designed to identify and classify objects within video streams or images based on the **COCO dataset**.
 
----
-
-## **Table of Contents**
-
-* [About The Project](#about-the-project)
-* [Features](#features)
-* [Getting Started](#getting-started)
-    * [Prerequisites](#prerequisites)
-    * [Installation](#installation)
-    * [Virtual Environment Setup](#virtual-environment-setup)
-* [Usage](#usage)
-* [Model Details](#model-details)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
-* [Acknowledgments](#acknowledgments)
-
----
 
 ## **About The Project**
 
@@ -45,7 +24,8 @@ To get a local copy up and running, follow these simple steps.
 ### **Prerequisites**
 Ensure you have **Python 3.8** installed on your system. You can check your Pyth
 
-# **Installation
+# **Installation**
+
 1.Clone the repository:
 https://github.com/lihini223/Object-Detection-model.git
 
