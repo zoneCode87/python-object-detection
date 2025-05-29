@@ -24,7 +24,7 @@ A lightweight object detection system using **OpenCV** and **SSD MobileNet V3** 
 ### Steps  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/lihini223/Object-Detection-model.git
+   git clone https://github.com/zoneCode87/python-object-detection
    cd Object-Detection-model
 
 2. Set up virtual environment::  
